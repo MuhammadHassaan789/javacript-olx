@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX - Buy and Sell for free anywhere in Pakistan with OLX ...</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./app.js"></script>
+
+</head>
+<body>
+<!-- As a link -->
+<nav class="navbar bg-body-tertiary">
+    <div class="sticky-top">
+        <a class="navbar-brand" href="index.html">
+            <img class="aazmeerolx" src="https://logos-world.net/wp-content/uploads/2022/04/OLX-Logo.png" alt="Olx" width="100" height="60">
+          </a>
+    </div>
+      </nav>
+  </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  All Categories
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">All items</a></li>
+                    <li><h1><a class="dropdown-item" id="MOB" href="#">MOBILES</a></li></h1>
+                    <li><a class="dropdown-item" href="#">Iphone 14 Pro max</a></li>
+                    <li><a class="dropdown-item" href="#">Iphone 13 promax</a></li>
+                    <li><a class="dropdown-item" href="#">Iphone 12 promax</a></li>
+                    <li><a class="dropdown-item" href="#">Iphone 11 promax</a></li>
+                    <li><a class="dropdown-item" href="#">Samsung</a></li>
+                    <li><a class="dropdown-item" href="#">Oppo</a></li>
+                    <li><a class="dropdown-item" href="#">Infinix</a></li>
+                    
+                    <li><h1><a class="dropdown-item" id="prop" href="#">PROPERTY</a></li></h1>
+                    <li><a class="dropdown-item" href="#">Houses</a></li>
+                    <li><a class="dropdown-item" href="#">Flats</a></li>
+                    <li><a class="dropdown-item" href="#">Appartment</a></li>
+                    <li><a class="dropdown-item" href="#">Banglos</a></li>
+                    <li><a class="dropdown-item" href="#">Mention</a></li>
+                    <li><a class="dropdown-item" href="#">Others</a></li>
+                    
+
+                    <li><h1><a class="dropdown-item" id="veh" href="#">VEHICALS</a></li></h1>
+                    <li><a class="dropdown-item" href="#">Civic</a></li>
+                    <li><a class="dropdown-item" href="#">Audi</a></li>
+                    <li><a class="dropdown-item" href="#">BR-V</a></li>
+                    <li><a class="dropdown-item" href="#">Hilux</a></li>
+                    <li><a class="dropdown-item" href="#">Yaris</a></li>
+                    <li><a class="dropdown-item" href="#">Grinde</a></li>
+                    <li><a class="dropdown-item" href="#">Fortuner</a></li>
+
+                    <li><h1><a class="dropdown-item" id="Ele" href="#">ELECTRONIC <br>APPLIANCES</a></li></h1>
+                    <li><a class="dropdown-item" href="#">Drill Machine</a></li>
+                    <li><a class="dropdown-item" href="#">Motor</a></li>
+                    <li><a class="dropdown-item" href="#">Cables</a></li>
+                    <li><a class="dropdown-item" href="#">Battery</a></li>
+                    <li><a class="dropdown-item" href="#">Adapter</a></li>
+                    <li><a class="dropdown-item" href="#">Oppo</a></li>
+                    <li><a class="dropdown-item" href="#">Infinix</a></li>
+
+
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Mobiles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Motorcycles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Houses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tv</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tablet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plots</a>
+          </li>
+    
+        </ul>
+        <form class="d-flex" role="search">
+          <input id="search-input" class="form-control me-2" placeholder="Search" aria-label="Search">
+          <button id="search-button" class="btn btn-outline-success" type="button" onclick="search()">Search</button>
+        </form>
+        
+      </div>
+      <div class="btn10">
+          <div class="btn-group">
+           <a class="btnlog" href="./login/login.html"><button type="button"  class="btn btn-secondary" id="email">Login</button></a>
+            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu" style="height: 5vh; overflow: hidden;">
+              <li><a class="dropdown-item" id="logout" onclick="signout()">Logout</a></li>
+            </ul>
+          </div>
+        <a class="btnlog" href="./Sell/sell.html"><button type="button"  class="btn btn-secondary">Sell</button></a>
+      </a>
+    <a class="btnlog" href="./myAds/myAds.html"><button type="button"  class="btn btn-secondary">My Ads</button></a>
+  </a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.olx.com.pk/thumbnails/382517610-800x600.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.olx.com.pk/thumbnails/295176473-800x600.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.olx.com.pk/thumbnails/382517610-800x600.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div> 
+  <div class="icons"> 
+  <figure class="figure">
+    <a href="#"><img class="imge one" src="./assists/mobile.png" class="figure-img img-fluid rounded" alt="..." width="100px"></a>
+    <figcaption class="figure-caption" align="center" > MOBILE</figcaption>
+  </figure>
+  <figure class="figure">
+    <a href="#"><img class="imge two" src="./assists/bikes.4dcd02c49b2b83aa5b4d629d1e2b383e.png" class="figure-img img-fluid rounded" alt="..." width="100px"></a>
+    <figcaption class="figure-caption"  align="center" >BIKES</figcaption>
+  </figure>
+  <figure class="figure">
+    <a href="#"><img class="imge three" src="./assists/electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png" class="figure-img img-fluid rounded" alt="..." width="100px"></a>
+    <figcaption class="figure-caption">Electronic Appliances</figcaption>
+  </figure>
+  <figure class="figure">
+    <a href="#"><img class="imge four" src="./assists/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png" class="figure-img img-fluid rounded" alt="..." width="100px"></a>
+    <figcaption class="figure-caption" align="center" > Fashion</figcaption>
+  </figure>
+  <figure class="figure">
+    <a href="#"> <img class="imge five" src="./assists/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png" class="figure-img img-fluid rounded" alt="..." width="100px"></a>
+   <figcaption class="figure-caption" align="center" > Furniture </figcaption>
+  </figure>
+  </div>
+  <div class="icons2">
+  <figure class="figure" >
+    <a href="#"><img class="imge six" src="./assists/property-for-rent.8436595fbaa90d47f0178006f57090a8.png" class="figure-img img-fluid rounded" alt="..." width="100px"></a>
+    <figcaption class="figure-caption" align="center" > Property Sale</figcaption>
+  </figure>
+  <figure class="figure">
+    <a href="#"><img class="imge seven" src="./assists/property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png" class="figure-img img-fluid rounded" alt="..." width="100px"></a>
+    <figcaption class="figure-caption" align="center" > Property Rent</figcaption>
+  </figure>
+  <figure class="figure">
+    <a href="#"><img class="imge eight" src="./assists/services.dc6aef196c0403dc61b0ee813f66fa5b.png" class="figure-img img-fluid rounded" alt="..." width="100px"></a>
+    <figcaption class="figure-caption" align="center" > Services</figcaption>
+  </figure>
+  <figure class="figure">
+    <a href="#"><img class="imge nine" src="./assists/books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png" class="figure-img img-fluid rounded" alt="..." width="100px"></a>
+    <figcaption class="figure-caption" align="center" >Books&Others</figcaption>
+  </figure>
+  <figure class="figure">
+    <a href="#"><img class="imge ten" src="./assists/vehicles.29fb808d5118f0db56f68a39ce5392e2.png" class="figure-img img-fluid rounded" alt="..." width="100px"></a>
+    <figcaption class="figure-caption" align="center" > vehicles</figcaption>
+  </figure>
+</div>
+<h1 class="display-3" align="center">BUY WHAT YOU WANT!</h1>
+<select onchange="sort(event)" class="form-select" aria-label="Default select example" style="width: 150px;" >
+  <option selected>Price</option>
+  <option value="asc">Lower to Higher</option>
+  <option value="desc">Higher to lower</option>
+</select>
+
+<select onchange="sortDate(event)" class="form-select" aria-label="Default select example" style="width: 150px;">
+  <option selected>Date</option>
+  <option value="asc">Oldest</option>
+  <option value="desc">Newest</option>
+</select>
+
+<span class="refresh">
+  <a href="./index.html" width="100px"><img src="./IMG/refresh+reload+update+icon-1320191166843452904.png" alt="" width="30px"></a>
+</span>
+
+
+
+<div id="container">
+</div>
+
+<div class="d-flex justify-content-center" style="margin-top: 20px; margin-bottom: 20px;">
+  <nav aria-label="...">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1">Previous</a>
+      </li>
+      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/smart.xander.77" role="button">
+        <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png" alt="" width="40px">
+      </a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/hassaan.naseem/" role="button"
+        ><img src="https://www.svgrepo.com/show/365495/instagram-logo-thin.svg" width="40px" alt="">
+      </a>
+
+    
+    </section>
+    <!-- Section: Social media -->
+
+  
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Buy, sell and find just about anything using the app on your mobile.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Pouplar Catogries</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Cars</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Flats For rent</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Mobile Phones</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Jobs</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Trending Searches</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Bikes</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Wathces</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Books</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Dogs</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">About</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">About Dubizzle Group</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Olx Blog</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Contact us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Olx for bussinesses</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Olx</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Help</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Site map</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Terms of Uses</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Privacy Policies</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  
+
+</body>
+</html>
+
+

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="style.css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script type="module" src="./sell.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+<!-- As a link -->
+<nav class="navbar bg-body-tertiary">
+    <div class="sticky-top">
+        <a class="navbar-brand" href="../index.html">
+            <img class="aazmeerolx" src="https://logos-world.net/wp-content/uploads/2022/04/OLX-Logo.png" alt="Olx" width="100" height="60">
+        </a>
+    </div>
+      </nav>
+  </div>
+ <br><br><br>
+  <section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form>
+
+            <h1 class="display-3" align="center">POST YOUR AD!</h1>
+            <br><br>
+            <!-- Email input -->
+             <div class="form-outline mb-4">
+                <input id="form3Example3" class="form-control form-control-lg"
+                  placeholder="Enter product Title" required />
+                <label class="form-label" for="form3Example3">Title</label>
+              </div>
+
+              <div class="form-outline mb-4">
+                <input id="form3Example3" class="form-control form-control-lg"
+                  placeholder="Enter Description" required />
+                <label class="form-label" for="form3Example3">Description</label>
+              </div>
+  
+             <div class="form-outline mb-3">
+                <input type="number" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter Amount" />
+                <label class="form-label" for="form3Example4">Amount</label>
+              </div>
+
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Choose Image</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+              </div>
+
+            <div class="text-center text-lg-start mt-4 pt-2">
+                <a class="newbtn"> <button type="button" class="btn btn-primary btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;" onclick="onPost()">Post Ad</button></a>
+            </div>
+  
+          </form>
+        </div>
+      </div>
+    </div>
+    
+   
+      
+  
+     
+  </section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/smart.xander.77" role="button">
+          <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png" alt="" width="40px">
+        </a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/m_hassaan_05/" role="button"
+          ><img src="https://www.svgrepo.com/show/365495/instagram-logo-thin.svg" width="40px" alt="">
+        </a>
+      
+      </section>
+      <!-- Section: Social media -->
+  
+    
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Buy, sell and find just about anything using the app on your mobile.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Pouplar Catogries</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Cars</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Flats For rent</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Mobile Phones</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Jobs</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Trending Searches</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Bikes</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Wathces</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Books</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Dogs</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">About Dubizzle Group</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Olx Blog</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Contact us</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Olx for bussinesses</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Olx</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Help</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Site map</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Terms of Uses</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Privacy Policies</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+    <script type="module" src="./app.js"></script>
+  
+  
+
+
+
+</body>
+</html>

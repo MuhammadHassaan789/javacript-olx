@@ -1,0 +1,253 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.btns{
+    background-color: #4682b4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+
+    
+}
+
+.btn:hover{
+
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.btn{
+    background-color: #4682b4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btns {
+    transition-duration: 0.4s;
+  }
+  
+  .btns:hover {
+    background-color: blueviolet; /* Green */
+    color: white;
+  }
+
+  .dropdown-menu{
+    background-color: white;
+
+  }
+
+  .dropdown-item{
+    /* border: 1px solid #3e6f97; */
+    border-radius: 2px;
+  }
+
+  @font-face {
+    font-family: aazm;
+    src: url(./static/REM-Bold.ttf);
+  }
+
+  #MOB{
+
+    font-family: aazm;
+  }
+
+  #Ele{
+
+    font-family: aazm;
+  }
+
+  
+  #prop{
+
+    font-family: aazm;
+    display: flex;
+  }
+
+  
+  #veh{
+
+    font-family: aazm;
+  }
+
+  
+  #MOB{
+
+    font-family: aazm;
+  }
+
+  
+  #MOB{
+
+    font-family: aazm;
+  }
+
+  .icons{
+    text-align: center;
+  }
+  .img1{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  .img1:hover {opacity: 0.7;}
+
+  .img2:hover {opacity: 0.7;}
+  .img2{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .img3:hover {opacity: 0.7;}
+  .img3{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .img4:hover {opacity: 0.7;}
+  .img4{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .img5:hover {opacity: 0.7;}
+  .img5{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .img6:hover {opacity: 0.7;}
+  .img6{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .img7:hover {opacity: 0.7;}
+  .img7{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .img8:hover {opacity: 0.7;}
+  .img8{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .img9:hover {opacity: 0.7;}
+  .img9{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .img10{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .img10:hover {opacity: 0.7;}
+  
+
+
+.car1{
+  display: flex;
+  justify-content: space-around;
+}
+
+#card11{
+  text-align: center  ;
+
+}
+
+.head1{
+  font-family: aazm;
+}
+
+.paginations{
+ display: flex;
+ justify-content: center;
+}
+
+.text-white{
+
+  text-decoration: none;
+}
+.btnlog{
+
+  text-decoration: none;
+  color: white;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.newbtn{
+
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: #0281ff;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 0;
+  /* Push the footer to the bottom */
+}
+
+@media (max-width: 991px) {
+  .img-fluid {
+  height: 52vh;
+  }
+  .form-control{
+    width: 90%;
+  }
+}
+
+

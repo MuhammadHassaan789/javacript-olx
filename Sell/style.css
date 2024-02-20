@@ -1,0 +1,260 @@
+footer {
+    width: 100%;
+    background-color: #0281ff;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
+  }
+
+  
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.btns{
+  background-color: #4682b4;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px;
+transition-duration: 0.4s;
+
+  
+}
+
+.btn:hover{
+
+  background-color: blueviolet;
+  color: white;
+
+}
+
+.btn{
+  background-color: #4682b4;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.btns {
+  transition-duration: 0.4s;
+}
+
+.btns:hover {
+  background-color: blueviolet; /* Green */
+  color: white;
+}
+
+.dropdown-menu{
+  background-color: white;
+  height: 75vh;
+  overflow: scroll;
+
+}
+
+.dropdown-item{
+  /* border: 1px solid #3e6f97; */
+  border-radius: 2px;
+}
+
+@font-face {
+  font-family: aazm;
+  src: url(./static/REM-Bold.ttf);
+}
+
+#MOB{
+
+  font-family: aazm;
+}
+
+#Ele{
+
+  font-family: aazm;
+}
+
+
+#prop{
+
+  font-family: aazm;
+  display: flex;
+}
+
+
+#veh{
+
+  font-family: aazm;
+}
+
+
+#MOB{
+
+  font-family: aazm;
+}
+
+
+#MOB{
+
+  font-family: aazm;
+}
+
+
+.ten{
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ten:hover {opacity: 0.7;}
+
+@media (min-width: 992px) {
+.navbar-expand-lg {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+}
+
+.car1{
+display: flex;
+justify-content: space-around;
+}
+
+#card11{
+text-align: center  ;
+
+}
+
+.head1{
+font-family: aazm;
+}
+
+.paginations{
+display: flex;
+justify-content: center;
+}
+
+.text-white{
+
+text-decoration: none;
+}
+.btnlog{
+
+text-decoration: none;
+color: white;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.newbtn{
+
+text-decoration: none;
+color: white;
+}
+
+.col-sm {
+cursor: pointer;
+}
+
+.row {
+display: flex;
+justify-content: space-around;
+}
+
+.display-3 {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* This ensures that the body takes at least the full height of the viewport. */
+}
+
+#container {
+  flex: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0; /* Remove default margin */
+}
+
+
+
+.card {
+  width: 18rem;
+  margin: 10px;
+  max-height: 300px;
+}
+
+.card-img-top {
+  width: 287px;
+  height: 210px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #0281ff;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+.dropdown-menu{
+background-color: white;
+height: 10vh;
+overflow: scroll;
+}
+
+.dropdown-item{
+/* border: 1px solid #3e6f97; */
+border-radius: 2px;
+}
